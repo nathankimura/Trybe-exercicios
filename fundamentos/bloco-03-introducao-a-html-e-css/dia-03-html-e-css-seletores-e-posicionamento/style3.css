@@ -4,3 +4,9 @@ h1, p{
 li:hover{
     background-color: blueviolet;
 }
+li:active{
+    font-style: italic;
+}
+ul, ol{
+    list-style: none;
+}
