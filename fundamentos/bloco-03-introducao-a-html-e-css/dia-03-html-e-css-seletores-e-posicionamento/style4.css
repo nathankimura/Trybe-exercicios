@@ -3,16 +3,21 @@ div:hover{
 }
 div:first-of-type{
     color:tomato;
+    text-decoration: line-through black;
 }
 div:nth-of-type(2){
     color: turquoise;
+    text-decoration: overline cornflowerblue;
 }
 div:nth-of-type(3){
     color: blueviolet;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 div:nth-of-type(4){
     color: blue;
+    font-weight: bolder;
 }
 div:last-of-type{
     color: yellowgreen;
+    text-decoration: underline;
 }
