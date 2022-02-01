@@ -9,7 +9,7 @@ h3{
     font-size: 25px;
     text-align: center;
     padding: 20px;
-};
+}
 }
 body{
     background-color: #f9f9f4;
@@ -17,19 +17,23 @@ body{
 }
 .cabecalho{
     display:flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
+    flex-direction: column;
+    align-items: left  ;
     padding: 20px;
 }
 .cabecalho-nav{
     display:flex;
     gap:30px;
+    padding-top: 10px;
 }
 .cabecalho-menu-item{
     font-family:'Sarala';
     font-weight: 500;
     font-size: 16px;
+}
+.divide-main-aside{
+    display: flex;
+
 }
 .conteudo{
     border-top: 1px solid black;
@@ -41,7 +45,6 @@ body{
     flex-direction: column;
     align-items: center;
     gap:20px;
-    width: 70%;
     margin-left: 20px;
 }
 .info-tabela{
@@ -52,10 +55,19 @@ body{
 .informacoes-gerais{
     text-align: center;
 }
+.tabela, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.tabela{
+    margin-right: 20px;
+}
 .titulo-fatos{
     font-size: 30px;
 }
 img{
     margin-top: 20px;
+}
+.section-metodo-caca, .section-visao, .section-predadores{
     text-align: center;
 }
