@@ -1,0 +1,52 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    font-family: GeoEditBold,Franklin Gothic Medium,Franklin Gothic,ITC Franklin Gothic,Helvetica,Arial,sans-serif;
+}
+h3{
+    font-family: GeoEditBold,Franklin Gothic Medium,Franklin Gothic,ITC Franklin Gothic,Helvetica,Arial,sans-serif;
+    font-size: 25px;
+};
+}
+body{
+    background-color: #f9f9f4;
+    font-size: 100%;
+}
+.cabecalho{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+.cabecalho-nav{
+    display:flex;
+    gap:30px;
+}
+.cabecalho-menu-item{
+    font-family:'Sarala';
+    font-weight: 500;
+    font-size: 16px;
+}
+.conteudo{
+    border-top: 1px solid black;
+    margin-bottom: 40px;
+}
+.contudo-principal{
+    border: 1px solid black;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+    width: 70%;
+    margin-left: 20px;
+
+}
+.titulo-fatos{
+    font-size: 30px;
+}
+img{
+    margin-top: 20px;
+    
+}
