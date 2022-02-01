@@ -75,6 +75,9 @@ img{
 .section-metodo-caca, .section-visao, .section-predadores{
     text-align: center;
 }
+.section-fontes ul li{
+    padding: 10px;
+}
 .footer{
     padding: 20px;
     background-color: #2C45A3;
