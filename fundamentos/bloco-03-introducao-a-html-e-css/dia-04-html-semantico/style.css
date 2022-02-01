@@ -7,6 +7,8 @@
 h3{
     font-family: GeoEditBold,Franklin Gothic Medium,Franklin Gothic,ITC Franklin Gothic,Helvetica,Arial,sans-serif;
     font-size: 25px;
+    text-align: center;
+    padding: 20px;
 };
 }
 body{
@@ -33,7 +35,7 @@ body{
     border-top: 1px solid black;
     margin-bottom: 40px;
 }
-.contudo-principal{
+.conteudo-principal{
     border: 1px solid black;
     display:flex;
     flex-direction: column;
@@ -41,12 +43,19 @@ body{
     gap:20px;
     width: 70%;
     margin-left: 20px;
-
+}
+.info-tabela{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+.informacoes-gerais{
+    text-align: center;
 }
 .titulo-fatos{
     font-size: 30px;
 }
 img{
     margin-top: 20px;
-    
+    text-align: center;
 }
