@@ -1,0 +1,27 @@
+div:hover{
+    border: 2px solid yellow;
+}
+div:first-of-type{
+    color:tomato;
+    text-decoration: line-through black;
+}
+div:nth-of-type(2){
+    color: turquoise;
+    text-decoration: overline cornflowerblue;
+}
+div:nth-of-type(3){
+    color: blueviolet;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+}
+div:nth-of-type(4){
+    color: blue;
+    font-weight: bolder;
+}
+div:last-of-type{
+    color: yellowgreen;
+    text-decoration: underline;
+}
+div:nth-of-type(2n+1){
+    font-style: italic;
+}
