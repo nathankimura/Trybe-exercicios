@@ -27,7 +27,7 @@ console.log(resultadoMedia)
 */
 
 //exercicio 4.
-
+/* 
 let resultado = 0;
 
 for (let index = 0; index < numbers.length; index += 1){
@@ -41,3 +41,14 @@ if (resultadoMedia>20){
 else{
     console.log("valor menor ou igual a 20")
 }
+ */
+
+//exercicio 5.
+let numMaior=numbers[0]
+for (let index = 0; index < numbers.length; index += 1){
+    if (numbers[index]>numMaior){
+        numMaior=numbers[index]
+    }
+}
+console.log(numMaior)
+
