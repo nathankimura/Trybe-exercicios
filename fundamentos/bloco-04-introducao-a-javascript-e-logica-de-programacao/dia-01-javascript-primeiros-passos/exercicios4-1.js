@@ -22,6 +22,7 @@ switch (programa){
     default:
         console.log("Operação não encontrada") */
 
+
 // exercício 2.
 /* let a=10;
 let b=11;
@@ -31,6 +32,7 @@ if (a>b){
 else{
     console.log("b é maior q a")
 } */
+
 
 //exercicio 3.
 /* let a=10;
@@ -47,6 +49,7 @@ else if (c>a && c>b){
 }
  */
 
+
 //exercício 4.
 /* const valor=0;
 if (valor>0){
@@ -58,6 +61,7 @@ else if (valor<0){
 else {
     console.log("valor é zero")
 } */
+
 
 //exercício 5.
 /* let angulo1=30;
@@ -74,6 +78,7 @@ else{
     console.log("Não é um triângulo")
 }
  */
+
 
 //exercício 6.
 /* let peca = "Peão".toLowerCase();
@@ -101,6 +106,7 @@ switch (peca){
         console.log("Peça inválida.")
 } */
 
+
 //exercício 7.
 /* let porcentagem=120;
 
@@ -126,6 +132,7 @@ else{
     console.log("Sua nota é F")
 } */
 
+
 //exercício 8.
 /* const num1=15;
 const num2=4;
@@ -138,6 +145,7 @@ if (num1%2===0||num2%2===0||num3%2===0){
 console.log(ePar);
  */
 
+
 //exercício 9.
 /* const num1=14;
 const num2=4;
@@ -149,6 +157,7 @@ if (num1%2===1||num2%2===1||num3%2===1){
 }
 console.log(eImpar);
  */
+
 
 //exercício 10.
 /* const custoProduto= 30;
@@ -165,8 +174,9 @@ else{
     console.log(quantidadeVendida*lucro)
 } */
 
+
 //exercício 11.
-let salarioBruto=5200;
+/* let salarioBruto=5200;
 
 if (salarioBruto<=1556.94 && salarioBruto>=0){
     salarioBase=salarioBruto-salarioBruto*0.08
@@ -197,3 +207,9 @@ else {
     salarioLiquido=salarioBase-((0.275*salarioBase)-869.36)
 }
 console.log(salarioLiquido)
+ */
+
+let names = ['João', 'Maria', 'Antônio', 'Margarida'];
+    for (let nome of names){
+        console.log(nome);
+    }
