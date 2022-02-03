@@ -54,7 +54,7 @@ console.log(numMaior)
  */
 
 //exercicio 6.
-
+/* 
 let resultado=0;
 
 for (let index = 0; index < numbers.length; index += 1){
@@ -66,4 +66,15 @@ if (resultado===0){
     console.log("nenhum valor ímpar encontrado")
 }else{
     console.log(resultado)
+} */
+
+//exercicio 7.
+
+let menorValor=numbers[0];
+
+for (let index = 0; index < numbers.length; index += 1){
+    if (numbers[index]<menorValor){
+    menorValor=numbers[index]
+    }
 }
+console.log(menorValor)
