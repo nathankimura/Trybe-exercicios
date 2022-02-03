@@ -7,9 +7,20 @@ for (let index = 0; index < numbers.length; index += 1) {
 } */
 
 //exercicio 2.
-let resulado=0;
+/* let resultado=0;
 for (let index = 0; index < numbers.length; index += 1) {
-    resulado+=numbers[index]
+    resultado+=numbers[index];
 }
+console.log(resultado); 
+*/
 
-console.log(resulado);
+//exercicio 3.
+
+let resultado = 0;
+
+for (let index = 0; index < numbers.length; index += 1){
+    resultado += numbers[index];
+}
+let resultadoMedia=resultado/numbers.length;
+
+console.log(resultadoMedia)
