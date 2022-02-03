@@ -81,12 +81,24 @@ console.log(menorValor)
  */
 
 //exercicio 8.
-
+/* 
 let array=[];
 let num=0;
 
 for (let index=0; index<25; index+=1){
     num +=1;
     array.push(num);
+}
+console.log(array)
+ */
+
+//exercicio 9.
+
+let array=[];
+let num=0;
+
+for (let index=0; index<25; index+=1){
+    num +=1;
+    array.push(num/2);
 }
 console.log(array)
