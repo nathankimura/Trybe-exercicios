@@ -15,6 +15,18 @@ console.log(resultado);
 */
 
 //exercicio 3.
+/* 
+let resultado = 0;
+
+for (let index = 0; index < numbers.length; index += 1){
+    resultado += numbers[index];
+}
+let resultadoMedia=resultado/numbers.length;
+
+console.log(resultadoMedia) 
+*/
+
+//exercicio 4.
 
 let resultado = 0;
 
@@ -23,4 +35,9 @@ for (let index = 0; index < numbers.length; index += 1){
 }
 let resultadoMedia=resultado/numbers.length;
 
-console.log(resultadoMedia)
+if (resultadoMedia>20){
+    console.log("valor maior que 20")
+}
+else{
+    console.log("valor menor ou igual a 20")
+}
