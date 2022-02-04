@@ -23,7 +23,7 @@ console.log(wordBack);
  */
 
 //exercicio 3.
-
+/* 
 let array = ['java', 'javascript', 'python', 'html', 'css'];
 
 let maiorPalavra=array[0];
@@ -40,4 +40,21 @@ for (i=0; i<array.length;i+=1){
         menorPalavra=array[i];
     }
 }
-console.log(menorPalavra)
+console.log(menorPalavra) */
+
+//exercicio 4.
+
+let maiorNumeroPrimo=0;
+
+for (numero=0; numero<=50; numero+=1){
+    let ePrimo = true;
+    for (let divisorAtual =2; divisorAtual<numero; divisorAtual+=1){
+        if (numero%divisorAtual===0){
+            ePrimo=false;
+        }
+    }
+    if (ePrimo){
+        maiorNumeroPrimo = numero;
+    }
+}
+console.log(maiorNumeroPrimo);
