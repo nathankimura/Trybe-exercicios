@@ -81,7 +81,7 @@ console.log(ePalin('arara'));
  */
 
 //exercicio2.
-
+/* 
 function retornaMaior(array){
     let maiorNumero=0;
     for (let index=0;index<=array.length;index+=1){
@@ -92,3 +92,29 @@ function retornaMaior(array){
     return maiorNumero;
 }
 console.log(retornaMaior([2, 3, 6, 7, 10, 1]));
+ */
+//exercicio3.
+/* 
+function retornaMaior(array){
+    let menorNumero=0;
+    for (let index in array){
+        if (array[index]<menorNumero){
+            menorNumero=index;
+        }
+    }
+    return menorNumero;
+}
+console.log(retornaMaior([2, 4, 6, 7, 10, 0, -3]));
+ */
+//exercicio4.
+
+function retornaMaiorNome(array){
+    let maiorNome=[0];
+    for (let index in array){
+        if (array[index].length>maiorNome.length){
+            maiorNome=array[index];
+        }
+    }
+    return maiorNome;
+}
+console.log(retornaMaiorNome(['José', 'Lucas', 'Nádia', 'Fernanda', 'Cairo', 'Joana']));
