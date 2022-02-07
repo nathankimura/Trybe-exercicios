@@ -116,7 +116,7 @@ function maiorMenorIgualZero(a){
 maiorMenorIgualZero(7) */
 
 //5:
-
+/* 
 function eTriangulo(a,b,c){
     if (a<0||b<0||c<0){
         console.log('Erro ângulos inválidos');
@@ -128,4 +128,4 @@ function eTriangulo(a,b,c){
         console.log('Valores validos, porém não é um triângulo !');
     }
 }
-eTriangulo(50,80,50)
+eTriangulo(50,80,50) */

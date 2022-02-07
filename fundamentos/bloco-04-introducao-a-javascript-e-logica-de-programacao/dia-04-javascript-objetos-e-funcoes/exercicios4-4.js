@@ -39,7 +39,7 @@
       console.log(info[properties] + ' e ' + info2[properties]);
     }
   } */
-
+/* 
   let leitor = {
     nome: 'Julia',
     sobrenome: 'Pessoa',
@@ -52,15 +52,43 @@
       },
     ],
   };
-
+ */
 //exercicio6.
 /* console.log('O livro favorito de '+leitor.nome+' '+leitor.sobrenome+' se chama '+leitor.livrosFavoritos[0].titulo); */
 
 //exercicio7.
-leitor.livrosFavoritos.push({
+/* leitor.livrosFavoritos.push({
     titulo: 'Harry Potter e o Prisioneiro de Azkaban',
     autor: 'JK Rowling',
     editora: 'Rocco',
 }
     )
-console.log(leitor.nome+' tem '+leitor.livrosFavoritos.length+' livros favoritos.')
+console.log(leitor.nome+' tem '+leitor.livrosFavoritos.length+' livros favoritos.') */
+
+//PARTE 2-FUNÇÕES.
+
+//exercicio1.
+/* function ePalin(palavra){
+    let palavraInvertida=palavra.split('').reverse().join('');
+    if (palavra===palavraInvertida){
+        return 'true';
+    }
+    else{
+        return 'false';
+    }
+}
+console.log(ePalin('arara'));
+ */
+
+//exercicio2.
+
+function retornaMaior(array){
+    let maiorNumero=0;
+    for (let index=0;index<=array.length;index+=1){
+        if (array[index]>maiorNumero){
+            maiorNumero=index;
+        }
+    }
+    return maiorNumero;
+}
+console.log(retornaMaior([2, 3, 6, 7, 10, 1]));
