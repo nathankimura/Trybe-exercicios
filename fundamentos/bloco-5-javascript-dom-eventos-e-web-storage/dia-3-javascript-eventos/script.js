@@ -18,6 +18,7 @@ createDaysOfTheWeek();
 //   2. criar a elemento
 //   3. customizar a elemento
 //   4. colocar a elemento no html
+
 //ex1.
 function createDaysOfTheMonth() {
     const dezDaysList = [29, 30, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31];
@@ -67,9 +68,11 @@ function mostraFeriados() {
         for (let index = 0; index < feriados.length; index += 1) {
             if (feriados[index].style.backgroundColor === novaCorFundo) {
                 feriados[index].style.backgroundColor = corFundo;
+                feriados[index].style.border = '0';
             }
             else {
                 feriados[index].style.backgroundColor = novaCorFundo;
+                feriados[index].style.border = '1px solid black';
             }
         }
     })
@@ -124,7 +127,6 @@ function zoom() {
 zoom();
 
 //ex7.
-
 function tasks(tarefa){
     let tasksPlace = document.querySelector('.my-tasks');
     let tasks=document.createElement('span');
@@ -141,4 +143,6 @@ function legenda(cor) {
     legendaCor.style.backgroundColor=cor;
     legendaPlace.appendChild(legendaCor);
 }
-legenda('red')
+legenda('red');
+
+//ex9.
