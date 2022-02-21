@@ -8,12 +8,13 @@ button.addEventListener('click',prevent);}
 function clearInfo(){
     let infos = document.querySelectorAll('input');
     let textArea = document.querySelector('textarea');
-    for (let index=0; index<clearInfo.length;index+=1){
-        let inputs = clearInfo[index];
+    for (let index=0; index<infos.length;index+=1){
+        let inputs = infos[index];
         inputs.value="";
         inputs.checked = false;
     }
     textArea.value="";
+
 }
 window.onload = function () {
     let button = document.querySelector('#buttonSubmit');
